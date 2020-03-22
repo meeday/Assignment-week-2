@@ -1,0 +1,10 @@
+body {
+    padding-top: 70px;
+    padding-bottom:25px;
+}
+.navbar-brand {
+color: white !important;
+}
+.width-control {
+    max-width: 1024px;
+}
