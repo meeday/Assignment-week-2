@@ -14,5 +14,5 @@ The navbar is a fixed-top and the footer used is sticky.
 the responsiveness is good. (shown in detail in snapshots)
 All html files were validated using the site: [https://www.freeformatter.com/html-validator.html]
 I tried the footer bonus but I sisn't attempt to make sub-rows and sub-columns on the portfolio site.
-
-[Link to deployed site](
+The deployed Url:
+[https://meeday.github.io/Assignment-week-2/index.html]
