@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+@media only screen and (max-width: 768px){
+    #contact-me{
+        width: cover;
+        justify-content: center;
+    }
+    h2{
+        text-align: center;
+    }
+}
 #contact-me{
     font-family: 'Poppins', sans-serif;
     padding-top: 100px; 
