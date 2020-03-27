@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+#contact-me{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 100px; 
+}
+
+h2{
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 17px;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #9e9e9e;
+    margin: 10px 0px;
+	color:#3b74af;
+}
+
+.contact-form .submit-button {
+    background: #343a40;
+    color: #FFF;
+    cursor: pointer;
+    border:none;
+    
+}
+h4{
+    font-size: 12px;
+}
+

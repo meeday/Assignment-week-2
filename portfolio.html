@@ -3,34 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="portfoliostyling.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark justify-content-between">
+<!--Navbar-->
+  <nav class="navbar fixed-top navbar-dark bg-dark" id="navbar">
+    <a class="navbar-brand" href="#">Meedaxa Ahmed Hassen</a>
+    <ul class="nav nav-tabs justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav> 
+   
+ <!--Portfolio Section-->
+ <div class="container my-5">
+
+
+  <!-- Section: Block Content -->
+  <section class="dark-grey-text text-center" id="block-content">
+
+    <h1 class="font-weight-bold mb-4 pb-2">Portfolio</h1>
     
-        <header class="navbar-header">    
-              <a class="navbar-brand" href="#"><strong>Meedaxa Ahmed Hassen</strong></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span></button>
-         </header>
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="./images/about.me.png" class="img-fluid" alt="About-me">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <a class="orange-text">
+            <h6 class="font-weight-bold mt-2 mb-3"><i class="fas fa-chart-line pr-2"></i>My first about me site</h6>
+          </a>
+          <a class="btn btn-success btn-rounded btn-md" href="https://meeday.github.io/prework-about-me/"> View Project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="./images/Scratch.png" class="img-fluid" alt="Scratch-icon">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <a class="blue-text">
+            <h6 class="font-weight-bold mt-2 mb-3"><i class="fas fa-eye pr-2"></i>My first Scratch game</h6>
+          </a>
+          <a class="btn btn-success btn-rounded btn-md" href="https://scratch.mit.edu/projects/365999105"> View Project </a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="./images/RPS.jpg" class="img-fluid" alt="RPS-icon">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <a class="orange-text">
+            <h6 class="font-weight-bold mt-2 mb-3"><i class="fas fa-chart-line pr-2"></i>Rock,Paper,Scissors Game</h6>
+          </a>
+          <a class="btn btn-success btn-rounded btn-md" href="./Projects/rps-6.html"> View project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="./images/refactoring.png" class="img-fluid" alt="Refactoring-icon">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <a class="blue-text">
+            <h6 class="font-weight-bold mt-2 mb-3"><i class="fas fa-eye pr-2"></i>Refactoring Project</h6>
+          </a>
+          <a class="btn btn-success btn-rounded btn-md" href="https://github.com/meeday/Bootcamp-Assignments/tree/master/Code-Refactoring/Solution"> View Project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="./images/debug.png" class="img-fluid" alt="Debugging">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <a class="orange-text">
+            <h6 class="font-weight-bold mt-2 mb-3"><i class="fas fa-chart-line pr-2"></i>Debugging Project</h6>
+          </a>
+          <a class="btn btn-success btn-rounded btn-md" href="https://drive.google.com/open?id=1_hO1jKRPOGKX8P64JyVfO6wUt7y0PqCN"> View project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-6 mb-4">
+
+        <div class="view overlay rounded z-depth-1">
+          <img src="./images/Music.jpg" class="img-fluid" alt="Music-icon">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <div class="px-3 pt-3 mx-1 mt-1 pb-0">
+          <a class="blue-text">
+            <h6 class="font-weight-bold mt-2 mb-3"><i class="fas fa-eye pr-2"></i>My favourite band</h6>
+          </a>
+          <a class="btn btn-success btn-rounded btn-md" href="./Projects/Fanpage.html"> View Project</a>
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+
+
+
+  </section>
+  <!-- Section: Block Content -->
+
+
+</div>
  
-         <nav class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="nav navbar-nav ml-auto" id="link">
-                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                 </li>
-                  <li class="nav-item">
-                    <a class="active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                 </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                 </li>
-             </ul>
-         </nav>
-     </nav>
- 
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <div class="container text-center">
+    <small>Copyright &copy; Meedaxa Ahmed Hassen</small>
+  </div>
+</footer>
+
+
  
 
      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

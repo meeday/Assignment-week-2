@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
+@media only screen and (max-width: 768px){
+    #navbar{
+        justify-content: center;
+    }
+    #image{
+        justify-content: center;
+    }
+    #media-body{
+        justify-content: center;   
+    }
+    #media-body h1{
+        text-align: center;
+    }       
+}
+
+
+ nav a {
+     color: white;
+ }
+  
+      
+.row{
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+#image{
+    padding: 50px;
+}
+#media-body{
+    padding: 50px;
+    font-family: 'poppins', 'sans-serif';
+}
+#sticky-footer {
+    flex-shrink: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

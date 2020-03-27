@@ -3,33 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="indexstyle.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>About Me</title>
 </head>
-<body>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark justify-content-between">
-    
-       <header class="navbar-header">    
-             <a class="navbar-brand" href="#"><strong>Meedaxa Ahmed Hassen</strong></a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span></button>
-        </header>
-
-        <nav class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav ml-auto" id="link">
-                <li class="nav-item">
-                   <a class="active" href="index.html">About<span class="sr-only">(current)</span></a>
-                </li>
-                 <li class="nav-item">
-                   <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                   <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </nav>
+<body class="d-flex flex-column">
+  <!--Navbar-->
+  <nav class="navbar fixed-top navbar-dark bg-dark" id="navbar">
+    <a class="navbar-brand" href="#">Meedaxa Ahmed Hassen</a>
+    <ul class="nav nav-tabs justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav> 
+  <!--About Me Section-->
+  <main class="row">
+    <section class="col-md-3" id="image">
+        <img src="./images/20200324_141329.jpg" alt="Picture of Meedaxa" class="img-thumbnail rounded-circle" width="400" height="500">
+    </section>
+    <section class="col-md-6" id="media-body">
+        <h1 class="mt-0">About me</h1>
+        <p>My name is Meedaxa and I am a web developer based in Birmingham, UK. I am 25 years old and originally from Ethiopia. I love playing football and reading.
+           I have been interested in programming since my early teens but I never got round to learning how to code professionally until recently. 
+           I hope to create a fruitful career out of coding, and I believe I am on my way to achieving that.
+        </p>
+        <p>am what they call a full-stack developer which means I am able to do both front-end and back-end development.
+           I am well-versed in the three main languages that constitute web development. These are as follows:
+          <ul>
+            <li>HTML-The content of the web application</li>
+            <li>CSS- The styling of the web application</li>
+            <li>Javascript-Used to add dynamics and facilitate user interaction with the web application</li>
+          </ul>
+            My favourite language out of the three is javascript because of its diverse functions.
+            Most web applications nowadays are interactive and dynamic and javascript is the reason for that. 
+            Although I wouldn't call myself a bootstrap developer, I am also well-versed in utilising the bootstrap framework to create responsive web applications.                  
+     </section>   
+  </main>
+  <!--Footer-->
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <section class="container text-center">
+      <small>Copyright &copy; Meedaxa Ahmed Hassen</small>
+    </section>
+  </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

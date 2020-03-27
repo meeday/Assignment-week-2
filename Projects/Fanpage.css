@@ -1,0 +1,9 @@
+body {background-color: burlywood;}
+h1 {text-align:center; text-decoration: underline;font-family:fantasy;color: navy;font-size: x-large;}
+p {font-weight:bold;font-size: 22px;}
+h2 {font-weight: bold;}
+#li1 {color:green; font-size: 18px; font-weight: bold;}
+#li2 {color: green; font-size:18px; font-weight: bold;}
+#li3 {color:green; font-size:18px; font-weight: bold;}
+#li4 {color:green; font-size: 18px;font-weight: bold;}
+img {border:10px double black}
