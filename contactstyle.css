@@ -3,12 +3,12 @@
 #contact-me{
     font-family: 'Poppins', sans-serif;
     padding-top: 100px; 
+    padding-bottom: 100px;
 }
 
 h2{
     font-weight:bold;
-    font-family: 'Poppins', sans-serif;
-    text-align:center;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .contact-form input, .contact-form textarea {

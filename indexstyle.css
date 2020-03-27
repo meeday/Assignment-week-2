@@ -37,7 +37,6 @@
     font-family: 'poppins', 'sans-serif';
 }
 #sticky-footer {
-    flex-shrink: none;
     position: fixed;
     left: 0;
     bottom: 0;
