@@ -10,11 +10,15 @@
         justify-content: center;
     }
     #media-body{
-        justify-content: center;   
+        justify-content: center; 
+        padding: 0;  
     }
     #media-body h1{
         text-align: center;
-    }       
+    }  
+    .row{
+        padding-left: 0;
+    }     
 }
 
 
