@@ -1,53 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="indexstyle.css">
-    <link rel="stylesheet" href="contactstyle.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="indexstyle.css">
+  <link rel="stylesheet" href="contactstyle.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Contact</title>
 </head>
+
 <body>
-<!--Navbar-->
-<nav class="navbar fixed-top navbar-dark bg-dark" id="navbar">
-  <a class="navbar-brand" href="#">Meedaxa Ahmed Hassen</a>
-  <ul class="nav nav-tabs justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link" href="index.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="portfolio.html">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" href="contact.html">Contact</a>
-    </li>
-  </ul>
-</nav> 
-
-<!--Contact Me Form-->
-<main class="container" id="contact-me">
-  <h2>Contact Me</h2>
-  <section class="container contact ">
-     <form class="contact-form col-sm-12 col-md-6 p-2"  method="post">
-       <h4>Name</h4>
-          <input type="text" name="name" placeholder="John Doe" required>
-          <h4>Email</h4>
-      <input type="email" name="email" placeholder="example@gmail.com" required>
-      <h4>Message</h4>
-      <textarea name="message" rows="5" placeholder="" required></textarea>
-      <input class="submit-button" type="submit">
-    </form>
+  <!--Navbar-->
+  <!--mobile screensize navbar-->
+  <section class="in-mobile">
+    <header class="header-brand">
+      <p>Meedaxa Ahmed</p>
+    </header>
+    <nav class="mobile-navbar">
+      <ul>
+        <li>
+          <a href="index.html"> About</a>
+        </li>
+        <div class="vertical-line"></div>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <div class="vertical-line"></div>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
   </section>
-</main>
+  <!--desktop screensize navbar-->
+  <section class="desktop-container" id="is-desktop">
+    <header class="brand">
+      <p>Meedaxa Ahmed</p>
+    </header>
+    <nav class="desktop-navbar">
+      <ul>
+        <li>
+          <a href="index.html"> About</a>
+        </li>
+        <div class="desktop-vertical-line"></div>
+        <li>
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+        <div class="desktop-vertical-line"></div>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
 
-<!--Footer-->
-<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+  <!--Contact Me Form-->
+  <main class="container" id="contact-me">
+    <h2>Contact Me</h2>
+    <section class="container contact ">
+      <form class="contact-form col-sm-12 col-md-6 p-2" method="post">
+        <h4>Name</h4>
+        <input type="text" name="name" placeholder="John Doe" required>
+        <h4>Email</h4>
+        <input type="email" name="email" placeholder="example@gmail.com" required>
+        <h4>Message</h4>
+        <textarea name="message" rows="5" placeholder="" required></textarea>
+        <input class="submit-button" type="submit">
+      </form>
+    </section>
+  </main>
+
+  <!--Footer-->
+  <footer id="sticky-footer" class="py-4 text-white-50">
     <small>Copyright &copy; Meedaxa Ahmed Hassen</small>
-</footer>    
- 
-     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

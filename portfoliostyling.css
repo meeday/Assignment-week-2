@@ -1,10 +1,12 @@
+/*Portfolio content styling*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-#block-content{
-    padding-top: 100px;
-    font-family: 'poppins','sans-serif';
+#block-content {
+
+    font-family: 'poppins', 'sans-serif';
     padding-bottom: 20px;
 }
+
 main {
     padding-top: 20px;
 }

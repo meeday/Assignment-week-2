@@ -1,42 +1,46 @@
+/*contact form styling*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-@media only screen and (max-width: 768px){
-    #contact-me{
+@media only screen and (max-width: 768px) {
+    #contact-me {
         width: cover;
         justify-content: center;
     }
-    h2{
+
+    h2 {
         text-align: center;
     }
 }
-#contact-me{
+
+#contact-me {
     font-family: 'Poppins', sans-serif;
-    padding-top: 100px; 
+    padding-top: 20px;
     padding-bottom: 100px;
 }
 
-h2{
-    font-weight:bold;
-    font-family: 'Poppins', sans-serif; 
+h2 {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     font-size: 17px;
     width: 100%;
     padding: 15px;
     border: 2px solid #9e9e9e;
     margin: 10px 0px;
-	color:#3b74af;
+    color: #3b74af;
 }
 
 .contact-form .submit-button {
     background: #343a40;
     color: #FFF;
     cursor: pointer;
-    border:none;
-    
-}
-h4{
-    font-size: 12px;
+    border: none;
+
 }
 
+h4 {
+    font-size: 12px;
+}
