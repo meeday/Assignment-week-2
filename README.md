@@ -8,6 +8,7 @@ These links are as follows:
 - Contact:- The contact page contains a form to contact me. Using the Jquery framework the form will alert you if you haven't filled in any information. the submit button doesn't actually send the message as that wasn't the assignment.
 
 I used various bootstrap classes to ensure responsiveness in the html coding (an example is shown in snapshots).
+Semantic tags are used in everything except the div between the nav links because it is just a line and there was no tag that was appropriate
 
 I used multiple css files to add additional styling details to each html file(index, portfolio,contact). Although I could of used a single css for all the pages I felt it was easier than adding an id to every element I wanted to edit.
 The navbar is a fixed-top and the footer used is sticky.
